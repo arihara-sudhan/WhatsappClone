@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	margin: 0;
+}
+.logos {
+	font-size: 50px;
+	width: 50px;
+	height: 50px;
+	color: white;
+}
+#whatsapp {
+	padding-top: 4%;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 4%;
+	font-size: 7vw;
+}
+.first {
+	background-color: #075e50;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.first1 {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 40px;
+}
+
+.first11 {
+	display: flex;
+}
+
+.first2 {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 8px;
+}
+
+.first2 span {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 6vw;
+}
+
+#cam {
+	width: 50px;
+	height: 40px;
+}
+
+.phots {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.chats {
+	display: flex;
+	flex-direction: column;
+}
+.chat1 {
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.chat111 {
+	display: flex;
+	width: 100%;
+}
+
+.text {
+	padding-left: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.text .name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 70px;
+	font-weight: 80px;
+	color: rgba(0,0,0,0.79);
+}
+
+.text .msg {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	font-weight: 90px;
+	color: rgba(0,0,0,0.6);
+}
+
+#hr {
+	width: 100%;
+	opacity: .4;
+}
+
+.time {
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 90px;	
+	color: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.photstatus {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px solid  #075e55;
+}
+
+.recupt {
+	padding: 10px;
+	background-color: rgba(0,0,0,0.1);
+}
+.recupt span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	font-weight: bolder;
+	padding-left: 10px;	
+	color: #075e55;	
+}
+
+.photcalls {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.calldets {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
